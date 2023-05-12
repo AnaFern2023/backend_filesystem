@@ -51,7 +51,7 @@ try {
 // --------------------------------
 // erstelle den Ordner assets
 // try {
-//     mkdir(('./assets'))
+//     mkdir('./assets')
 // } catch (error) {
 //     throw error
 // }
