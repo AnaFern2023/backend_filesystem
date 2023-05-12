@@ -1,6 +1,13 @@
 import { readFile, writeFile, rm, rename } from 'node:fs/promises';
 import { readdir, rmdir, mkdir } from 'node:fs/promises';
 
+// Textdatei mit Inhalt schreiben
+try {
+    writeFile(('./blog1.txt'), "Hello World")
+} catch (error) {
+    console.error(err.message);
+}
+
 // --------------------------------
 // Text überschreiben
 try {
